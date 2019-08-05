@@ -69,13 +69,44 @@ public class Main {
 			j++;
 		}
 		
-		String mes = separador[0];
-		String dia = separador[1];
-		String ano = separador[2];
+		String mes = separador[1];
 		
 		switch (mes) {
 		case "01":
 			System.out.println("Enero");
+			break;
+		case "02":
+			System.out.println("Febrero");
+			break;
+		case "03":
+			System.out.println("Marzo");
+			break;
+		case "04":
+			System.out.println("Abril");
+			break;
+		case "05":
+			System.out.println("Mayo");
+			break;
+		case "06":
+			System.out.println("Junio");
+			break;
+		case "07":
+			System.out.println("Julio");
+			break;
+		case "08":
+			System.out.println("Agosto");
+			break;
+		case "09":
+			System.out.println("Septiembre");
+			break;
+		case "10":
+			System.out.println("Octubre");
+			break;
+		case "11":
+			System.out.println("Noviembre");
+			break;
+		case "12":
+			System.out.println("Diciembre");
 			break;
 
 		default:
