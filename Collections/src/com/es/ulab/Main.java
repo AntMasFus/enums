@@ -29,8 +29,8 @@ public class Main {
 		
 		Collections.sort(personaList);
 		
-		for(Persona o : personaList) {
-			System.out.println(o.getNombre());
+		for(Persona p : personaList) {
+			System.out.println(p.getNombre());
 		}
 
 	}
